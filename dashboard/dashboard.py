@@ -7,7 +7,12 @@ sns.set(style='dark')
 
 # Helper function
 
-pd.read('dashboard/dashboard.py')
+# Fungsi dari file dashboard.py
+def some_function():
+    st.write("This is a function from dashboard.py")
+
+# Panggil fungsi dalam dashboard.py
+some_function()
 
 def create_daily_orders_df(df):
     df['date'] = pd.to_datetime(df['date'])
