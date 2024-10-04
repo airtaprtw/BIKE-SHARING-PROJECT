@@ -7,7 +7,7 @@ sns.set(style='dark')
 
 # Helper function
 
-pd.read(“dashboard/dashboard.py”)
+pd.read('dashboard/dashboard.py')
 
 def create_daily_orders_df(df):
     df['date'] = pd.to_datetime(df['date'])
