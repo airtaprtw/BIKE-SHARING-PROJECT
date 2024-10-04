@@ -43,7 +43,7 @@ def create_rfm_df(df):
 
 
 # Prepare dataframe
-st.dataframe(pd.read_csv(r'.\\dashboard\\main_data.csv'))
+st.dataframe(pd.read_csv(r'.\dashboard\main_data.csv'))
 
 # Ensure the date column are of type datetime
 datetime_columns = ["date"]
