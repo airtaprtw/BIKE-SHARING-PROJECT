@@ -7,6 +7,8 @@ sns.set(style='dark')
 
 # Helper function
 
+pd.read(“dashboard/dashboard.py”)
+
 def create_daily_orders_df(df):
     df['date'] = pd.to_datetime(df['date'])
     orders_df = df.resample('M', on='date').sum()
@@ -43,7 +45,7 @@ def create_rfm_df(df):
 
 
 # Prepare dataframe
-st.dataframe(pd.read_csv(r'.\dashboard\main_data.csv'))
+day_df = pd.read_csv("dashboard/main_data.csv")
 
 # Ensure the date column are of type datetime
 datetime_columns = ["date"]
