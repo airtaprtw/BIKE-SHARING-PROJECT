@@ -5,7 +5,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-# Helper functions
+# Helper function
 
 def create_daily_orders_df(df):
     df['date'] = pd.to_datetime(df['date'])
@@ -43,7 +43,7 @@ def create_rfm_df(df):
 
 
 # Prepare dataframe
-day_df = pd.read_csv("main_data.csv")
+day_df = pd.read_csv("./main_data.csv")
 
 # Ensure the date column are of type datetime
 datetime_columns = ["date"]
