@@ -6,6 +6,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Helper function
+pd.read('dashboard/dashboard.py')
 
 # Fungsi dari file dashboard.py
 def some_function():
