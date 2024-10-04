@@ -61,5 +61,5 @@ cd dashboard
 streamlit run dashboard.py
 ```
 
-Atau bisa dapat langsung mengunjungi link streamlit berikut:
+Atau dapat langsung mengunjungi link streamlit berikut:
 #### [**Click here to view Bike Sharing Dashboard**](https://bike-sharing-project-wfmm6rqwraoehygyhewf6s.streamlit.app/)
